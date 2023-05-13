@@ -40,7 +40,7 @@ public class EquipmentService {
     }
 
     @Transactional(readOnly = true)
-    public List<EquipmentDto> findAllEquipments() {
+    public List<EquipmentDto> findAll() {
         return equipmentRepository.findAll().stream()
                 .map(mapperEq::map)
                 .toList();

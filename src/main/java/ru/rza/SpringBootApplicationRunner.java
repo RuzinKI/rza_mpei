@@ -4,13 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import ru.rza.dto.EquipmentDto;
-import ru.rza.dto.EquipmentSaveDto;
-import ru.rza.dto.UserDto;
-import ru.rza.mapper.EquipmentSaveMapper;
 import ru.rza.service.EquipmentService;
-import ru.rza.service.FileService;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @SpringBootApplication
@@ -23,7 +18,7 @@ public class SpringBootApplicationRunner {
         EquipmentService service = run.getBean("equipmentService", EquipmentService.class);
 
 
-        List<EquipmentDto> allEquipments = service.findAllEquipments();
+        List<EquipmentDto> allEquipments = service.findAll();
 
         System.out.println();
     }

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76bdfc9f-9d14-48bc-b287-59a2df7a8cbb" name="Changes" comment="" />
+    <list default="true" id="76bdfc9f-9d14-48bc-b287-59a2df7a8cbb" name="Changes" comment="work save/getAll Equipment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/SpringBootApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/SpringBootApplicationRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/controller/EquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/controller/EquipmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/service/EquipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/service/EquipmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/SpringBootApplicationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/rza/SpringBootApplicationRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/controller/ControllerOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/service/EquipmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/rza/service/EquipmentService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +134,30 @@
       <workItem from="1683898705288" duration="9292000" />
       <workItem from="1683974750672" duration="13497000" />
       <workItem from="1684000697707" duration="4972000" />
+      <workItem from="1684005800730" duration="1016000" />
     </task>
+    <task id="LOCAL-00001" summary="work save/getAll Equipment">
+      <created>1684005874536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684005874536</updated>
+    </task>
+    <task id="LOCAL-00002" summary="work save/getAll Equipment">
+      <created>1684005910056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684005910056</updated>
+    </task>
+    <task id="LOCAL-00003" summary="work save/getAll Equipment">
+      <created>1684006038597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684006038597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,11 +168,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="work save/getAll Equipment" />
+    <option name="LAST_COMMIT_MESSAGE" value="work save/getAll Equipment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,16 +197,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/rza/service/FileService.java</url>
           <line>38</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/rza/SpringBootApplicationRunner.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/rza/SpringBootApplicationRunner.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/rza/service/FileService.java</url>
