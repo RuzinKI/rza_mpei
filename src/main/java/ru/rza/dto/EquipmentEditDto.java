@@ -41,8 +41,8 @@ public class EquipmentEditDto {
 
 
     private Float costEstimated;   // оценочная стоимость
-    private Integer countActual;   // кол-во фактическое
-    private Integer countBalance;  // кол-во баланс
+    private Short countActual;   // кол-во фактическое
+    private Short countBalance;  // кол-во баланс
     private String status;         // статус объекта
     private String function;       // целевая функция
 }

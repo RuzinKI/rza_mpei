@@ -4,9 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.rza.entity.ExcelFile;
-import ru.rza.entity.FileName;
-import ru.rza.entity.Tag;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -32,7 +29,7 @@ public class EquipmentDto {
 
     private String user;            // ответственный
 
-    private List<FileName> file;    // названия файлов и ссылка
+    private List<FileDto> file;    // названия файлов и ссылка
 
-    private Set<Tag> tags;         // теги
+    private List<TagDto> tags;     // теги
 }

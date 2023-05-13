@@ -15,5 +15,4 @@ public class FileDto {
 
     private String name;
 
-    private byte[] data;
 }

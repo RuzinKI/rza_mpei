@@ -21,6 +21,6 @@ public class EquipmentSaveDto {
 
     private LocalDate dataIn;       // дата прихода
 
-    private String user;            // ответственный
+    private UserDto user;           // ответственный
 
 }

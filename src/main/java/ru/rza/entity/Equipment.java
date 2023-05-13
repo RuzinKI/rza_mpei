@@ -74,11 +74,11 @@ public class Equipment {
 
     // кол-во фактическое
     @Column(name = "count_actual", columnDefinition = "smallint" )
-    private Integer countActual;
+    private Short countActual;
 
     // кол-во баланс
     @Column(name = "count_balance", columnDefinition = "smallint" )
-    private Integer countBalance;
+    private Short countBalance;
 
     // балансовая стоимость
     @Column(name = "cost_balance")
