@@ -5,15 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76bdfc9f-9d14-48bc-b287-59a2df7a8cbb" name="Changes" comment="work save/getAll Equipment">
+      <change afterPath="$PROJECT_DIR$/Dockercompose" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MPEI-RZA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manifest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rza/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rza/config/SuccessUserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rza/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rza/controller/rest/EquipmentRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rza/repository/CabinetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rza/service/CabinetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/showAllUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/equipment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/215ba97e-6712-4e3d-8d00-2ecf59576dfb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/215ba97e-6712-4e3d-8d00-2ecf59576dfb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/215ba97e-6712-4e3d-8d00-2ecf59576dfb/storage_v2/_src_/database/rza_mpei.7ULyIg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/215ba97e-6712-4e3d-8d00-2ecf59576dfb/storage_v2/_src_/database/rza_mpei.7ULyIg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/SpringBootApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/SpringBootApplicationRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/controller/EquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/controller/EquipmentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/service/EquipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/service/EquipmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/SpringBootApplicationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/rza/SpringBootApplicationRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/controller/ControllerOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/service/EquipmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/rza/service/EquipmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rza/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rza/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileOne.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/SpringBootApplicationRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/EquipmentDto$EquipmentDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/EquipmentDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/EquipmentEditDto$EquipmentEditDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/EquipmentEditDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/EquipmentSaveDto$EquipmentSaveDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/EquipmentSaveDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/FileDto$FileDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/FileDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/TagDto$TagDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/TagDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/UserDto$UserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Cabinets$CabinetsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Cabinets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Equipment$EquipmentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Equipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/ExcelFile$ExcelFileBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/ExcelFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/FileName$FileNameBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/FileName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Section$SectionBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Section.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Tag$TagBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/mapper/EquipmentEntityToDtoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/mapper/EquipmentSaveMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/mapper/UserEntityToDtoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/repository/EquipmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/repository/FileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/service/EquipmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/service/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/rza/service/UserService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +85,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar!/org/postgresql/Driver.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22-sources.jar!/lombok/Data.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -69,6 +122,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/Program/MPEI-RZA/src/main/resources/js&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -86,10 +140,16 @@
       <recent name="ru.rza.dto" />
       <recent name="ru.rza.entity" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Program\MPEI-RZA\src\main\resources\js" />
+      <recent name="X:\Program\MPEI-RZA\src\main\resources\html" />
+      <recent name="X:\Program\MPEI-RZA" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\Program\MPEI-RZA\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.rza.config" />
       <recent name="ru.rza.entity" />
     </key>
   </component>
@@ -134,7 +194,11 @@
       <workItem from="1683898705288" duration="9292000" />
       <workItem from="1683974750672" duration="13497000" />
       <workItem from="1684000697707" duration="4972000" />
-      <workItem from="1684005800730" duration="1016000" />
+      <workItem from="1684005800730" duration="1619000" />
+      <workItem from="1684054180828" duration="3067000" />
+      <workItem from="1684072516667" duration="6595000" />
+      <workItem from="1684131361365" duration="12185000" />
+      <workItem from="1684149936755" duration="5753000" />
     </task>
     <task id="LOCAL-00001" summary="work save/getAll Equipment">
       <created>1684005874536</created>
@@ -157,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684006038597</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="work save/getAll Equipment">
+      <created>1684006983245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684006983245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

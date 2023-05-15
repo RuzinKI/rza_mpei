@@ -21,7 +21,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "username", columnDefinition = "VARCHAR(32)")
+    @Column(name = "username", columnDefinition = "VARCHAR(32)", unique = true)
     private String username;
 
     @Column(name = "name", columnDefinition = "VARCHAR(32)")
@@ -35,9 +35,6 @@ public class User {
 
     private String password;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "users_roles",
-            joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "roles_id"))
-    private Set<Role> roles = new HashSet<>();
+    @Enumerated(EnumType.STRING)
+    private Role role;
 }

@@ -1,30 +1,28 @@
 package ru.rza.controller;
 
-import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import ru.rza.dto.EquipmentDto;
+import ru.rza.service.CabinetService;
 import ru.rza.service.EquipmentService;
 
-import java.util.List;
-
-@RestController
-@RequestMapping("/api")
+@Controller
 public class EquipmentController {
 
     private final EquipmentService equipmentService;
+    private final CabinetService cabinetService;
 
-    public EquipmentController(EquipmentService equipmentService) {
+    public EquipmentController(EquipmentService equipmentService, CabinetService cabinetService) {
         this.equipmentService = equipmentService;
+        this.cabinetService = cabinetService;
     }
 
-    @GetMapping("/equip")
-    public ResponseEntity<List<EquipmentDto>> getAllUser() {
-        List<EquipmentDto> allEquipments = equipmentService.findAll();
-        if (allEquipments.isEmpty()) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(allEquipments);
+    @GetMapping("/equips")
+    public String aboutUser(Model model, @AuthenticationPrincipal User user) {
+        model.addAttribute("currentUser", user);
+        model.addAttribute("cabinets", cabinetService.getAll());
+        return "equipment";
     }
 }
